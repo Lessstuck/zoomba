@@ -47,8 +47,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 763.0, 42.0, 102.0, 38.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 763.0, 42.0, 104.0, 38.0 ],
 					"text" : "maximum frame duration, ms"
 				}
 
@@ -174,10 +173,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 476.833333333333314, 1.0, 30.0, 24.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -214,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.0, 543.0, 228.0, 53.0 ],
+					"patching_rect" : [ 251.5, 539.0, 231.0, 53.0 ],
 					"text" : "thanks to Richard Dudas, Luke Dubois, Chris Dobrian and Manuel Poletti for inspiration."
 				}
 
@@ -429,8 +424,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.0, 471.0, 122.0, 24.0 ],
-					"text" : "poke~ ---fftBuffer 2"
+					"patching_rect" : [ 188.0, 471.0, 162.0, 24.0 ],
+					"text" : "poke~ #0-fftBuffer 2"
 				}
 
 			}
@@ -442,8 +437,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 471.0, 122.0, 24.0 ],
-					"text" : "poke~ ---fftBuffer 1"
+					"patching_rect" : [ 23.0, 471.0, 162.0, 24.0 ],
+					"text" : "poke~ #0-fftBuffer 1"
 				}
 
 			}
@@ -533,8 +528,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 660.0, 458.0, 125.0, 24.0 ],
-					"text" : "index~ ---fftBuffer 2"
+					"patching_rect" : [ 660.0, 458.0, 166.0, 24.0 ],
+					"text" : "index~ #0-fftBuffer 2"
 				}
 
 			}
@@ -547,8 +542,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 492.0, 457.0, 125.0, 24.0 ],
-					"text" : "index~ ---fftBuffer 1"
+					"patching_rect" : [ 492.0, 457.0, 166.0, 24.0 ],
+					"text" : "index~ #0-fftBuffer 1"
 				}
 
 			}
@@ -673,10 +668,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 714.0, 7.0, 30.0, 24.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 3"
 				}
 
@@ -690,8 +681,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 30.0, 568.0, 170.0, 24.0 ],
-					"text" : "buffer~ ---fftBuffer 10000 2"
+					"patching_rect" : [ 30.0, 568.0, 211.0, 24.0 ],
+					"text" : "buffer~ #0-fftBuffer 10000 2"
 				}
 
 			}
@@ -1071,7 +1062,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
