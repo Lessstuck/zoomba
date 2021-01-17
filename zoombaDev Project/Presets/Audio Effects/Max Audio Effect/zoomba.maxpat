@@ -173,6 +173,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 476.833333333333314, 1.0, 30.0, 24.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 2"
 				}
 
@@ -209,8 +213,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.5, 539.0, 231.0, 53.0 ],
-					"text" : "thanks to Richard Dudas, Luke Dubois, Chris Dobrian and Manuel Poletti for inspiration."
+					"patching_rect" : [ 251.5, 543.0, 231.0, 53.0 ],
+					"text" : "thanks to Richard Dudas, Luke Dubois, Chris Dobrian, Manuel Poletti and Jeff Lubow for inspiration."
 				}
 
 			}
@@ -668,6 +672,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 714.0, 7.0, 30.0, 24.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 3"
 				}
 
@@ -681,7 +689,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 30.0, 568.0, 211.0, 24.0 ],
+					"patching_rect" : [ 30.0, 568.0, 202.0, 24.0 ],
 					"text" : "buffer~ #0-fftBuffer 10000 2"
 				}
 
@@ -1062,6 +1070,7 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
@@ -1082,7 +1091,8 @@
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.886275, 0.886275, 0.886275, 1.0 ]
+		"bgcolor" : [ 0.886275, 0.886275, 0.886275, 1.0 ],
+		"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ]
 	}
 
 }
